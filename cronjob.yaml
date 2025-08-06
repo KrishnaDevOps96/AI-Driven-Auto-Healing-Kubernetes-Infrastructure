@@ -1,0 +1,15 @@
+apiVersion: batch/v1
+kind: CronJob
+metadata:
+  name: ai-auto-healer
+spec:
+  schedule: "*/2 * * * *"  # Runs every 2 minutes
+  jobTemplate:
+    spec:
+      template:
+        spec:
+          containers:
+          - name: healer
+            image: krishnadoc96/ai-healer:latest
+            imagePullPolicy: Always
+          restartPolicy: OnFailure

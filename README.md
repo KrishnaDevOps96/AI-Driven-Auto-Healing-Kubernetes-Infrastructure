@@ -78,11 +78,8 @@ An AI-powered Kubernetes infrastructure that detects anomalies in application me
 
 ## 📷 Screenshots
 
-### 📈 Anomaly Detected and Auto-Healed
+<img width="2866" height="1562" alt="image" src="https://github.com/user-attachments/assets/8db4426a-fda8-4a2a-8fd4-eb2dae4e0821" />
 
-### 📊 Grafana Dashboard - CPU Spikes
-
-### 🔁 Pod Restart Logs
 
 ---
 

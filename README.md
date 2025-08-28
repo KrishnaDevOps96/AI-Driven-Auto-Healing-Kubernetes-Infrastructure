@@ -1,8 +1,4 @@
-An AI-powered Kubernetes infrastructure that detects anomalies in application metrics using a Python-based ML model and automatically heals the environment by restarting unhealthy pods. Visualized and monitored in real-time via Grafana and Prometheus.
 # 🤖 AI-Driven Auto-Healing Kubernetes Infrastructure
-
-## 📌 Project Overview
-
 An AI-powered Kubernetes infrastructure that detects anomalies in application metrics using a Python-based ML model and automatically heals the environment by restarting unhealthy pods. Visualized and monitored in real-time via Grafana and Prometheus.
 
 > Built using k3s, Prometheus, Grafana, Kubernetes Python client, and an Isolation Forest ML model.
